@@ -8,6 +8,7 @@ body {
 
 .current {
   opacity: 1;
+  transition: all 0.8s ease-in-out;
 }
 
 .slider-img::before {

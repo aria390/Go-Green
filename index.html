@@ -55,9 +55,24 @@
         </li>
       </ul>
     </header>
-    <section class="h-screen">
+    <section class="h-screen relative bg-black">
+      <img
+        id="leftBtn"
+        class="h-[40px] w-[40px] absolute z-3 top-[50%] left-14 cursor-pointer"
+        src="./src/img/svgviewer-output (2).svg"
+        alt=""
+      />
+      <img
+        id="rightBtn"
+        class="h-[40px] w-[40px] absolute z-3 top-[50%] right-14 cursor-pointer"
+        src="./src/img/svgviewer-output (3).svg"
+        alt=""
+      />
       <div class="h-full relative flex text-center">
-        <div style="background-image: url('src/img/slider-1.jpg');" class="text-white gap-8 opacity-0 slider-img current w-full absolute h-full flex flex-col justify-center">
+        <div
+          style="background-image: url('src/img/slider-1.jpg')"
+          class="text-white sliderScreen gap-8 slider-img opacity-0 current w-full absolute h-full flex flex-col justify-center"
+        >
           <span class="z-2 text-6xl font-semibold">Web Development</span>
           <p class="z-2 text-lg font-medium px-100">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor illum
@@ -66,26 +81,84 @@
             quidem magni earum.
           </p>
           <div class="z-2">
-            <button style="transition: 0.3s" class="bg-[#1dbf73]  text-2xl font-medium py-4 w-60 text-center cursor-pointer hover:bg-white hover:text-[#1dbf73]">GET STARTED</button>
+            <button
+              style="transition: 0.3s"
+              class="bg-[#1dbf73] text-2xl font-medium py-4 w-60 text-center cursor-pointer hover:bg-white hover:text-[#1dbf73]"
+            >
+              GET STARTED
+            </button>
           </div>
         </div>
-        <div class="w-full absolute h-full flex flex-col justify-center opacity-0">
-          <span>App Development</span>
-          <p>
+        <div
+          style="background-image: url('src/img/slider-2.jpg')"
+          class="text-white sliderScreen gap-8 opacity-0 slider-img w-full absolute h-full flex flex-col justify-center"
+        >
+          <span class="z-2 text-6xl font-semibold">App Development</span>
+          <p class="z-2 text-lg font-medium px-100">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
             error asperiores velit sequi ipsum magnam eum? Ipsa, officiis. Saepe
             consequatur, doloribus debitis omnis nisi optio dolorem aliquam.
             Deserunt, distinctio architecto.
           </p>
+          <div class="z-2">
+            <button
+              style="transition: 0.3s"
+              class="bg-[#1dbf73] text-2xl font-medium py-4 w-60 text-center cursor-pointer hover:bg-white hover:text-[#1dbf73]"
+            >
+              GET STARTED
+            </button>
+          </div>
         </div>
-        <div class="w-full absolute h-full flex flex-col justify-center opacity-0">
-          <span>Game Development</span>
-          <p>
+        <div
+          style="background-image: url('src/img/slider-3.jpg')"
+          class="text-white sliderScreen gap-8 opacity-0 slider-img w-full absolute h-full flex flex-col justify-center"
+        >
+          <span class="z-2 text-6xl font-semibold">Game Development</span>
+          <p class="z-2 text-lg font-medium px-100">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
             eaque! Vel, dolores maiores voluptate alias quos vitae ab, illo
             animi laboriosam officiis maxime illum harum nesciunt quis
             consectetur rerum! Reprehenderit?
           </p>
+          <div class="z-2">
+            <button
+              style="transition: 0.3s"
+              class="bg-[#1dbf73] text-2xl font-medium py-4 w-60 text-center cursor-pointer hover:bg-white hover:text-[#1dbf73]"
+            >
+              GET STARTED
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h3>About Us</h3>
+        <p>
+          Maecenas vel turpis quis lorem aliquam tempus quis non mi.
+          Pellentesque habitant morbi tristique senectus et netus et malesuada
+          fames ac turpis egestas.
+        </p>
+      </div>
+      <div>
+        <div>
+          <img src="" alt="" />
+          <div>
+            <h3>Welcome to Our Site</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              condimentum rutrum ligula. Integer ac porttitor mi. In finibus
+              vehicula aliquet. Vestibulum et velit placerat, pretium lorem id,
+              porttitor libero. Suspendisse scelerisque nec arcu a malesuada.
+              Nulla tempus dictum tristique.
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
     </section>
