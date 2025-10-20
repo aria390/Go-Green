@@ -4,6 +4,18 @@ const sliderScreenEl =
   document.querySelectorAll<HTMLDivElement>(".sliderScreen");
 const leftBtnEl = document.getElementById("leftBtn") as HTMLImageElement;
 const rightBtnEl = document.getElementById("rightBtn") as HTMLImageElement;
+const headerEl = document.getElementById("header") as HTMLElement;
+
+console.log(window.pageYOffset);
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset >= 600) {
+    headerEl.classList.add("headerColor");
+  } else {
+    headerEl.classList.remove("headerColor");
+  }
+  console.log(window.pageYOffset);
+});
 
 rightBtnEl?.addEventListener("click", () => {
   const currentEl = document.querySelector(".current");
@@ -34,4 +46,4 @@ setInterval(() => {
   } else {
     sliderScreenEl[0].classList.add("current");
   }
-},5000);
+}, 5000);
