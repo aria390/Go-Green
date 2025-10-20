@@ -131,36 +131,441 @@
         </div>
       </div>
     </section>
-    <section>
-      <div>
-        <h3>About Us</h3>
-        <p>
-          Maecenas vel turpis quis lorem aliquam tempus quis non mi.
-          Pellentesque habitant morbi tristique senectus et netus et malesuada
-          fames ac turpis egestas.
-        </p>
-      </div>
-      <div>
-        <div>
-          <img src="" alt="" />
-          <div>
-            <h3>Welcome to Our Site</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              condimentum rutrum ligula. Integer ac porttitor mi. In finibus
-              vehicula aliquet. Vestibulum et velit placerat, pretium lorem id,
-              porttitor libero. Suspendisse scelerisque nec arcu a malesuada.
-              Nulla tempus dictum tristique.
-            </p>
-            <button>Read More</button>
+    <section class="pt-[60px] pb-[70px] flex justify-center bg-[#f2f2f2]">
+      <div class="max-w-[1350px] flex flex-col gap-5">
+        <div class="flex flex-col items-center text-center gap-5">
+          <h3 class="text-5xl font-medium">About Us</h3>
+          <p class="text-[#656565] text-xl pb-[30px] max-w-[900px]">
+            Maecenas vel turpis quis lorem aliquam tempus quis non mi.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5">
+          <div class="flex gap-8 items-center">
+            <img src="./src/img/about.jpg" alt="" />
+            <div class="flex flex-col gap-5">
+              <h3
+                style="transition: 0.3s"
+                class="text-[#1dbf73] text-4xl font-semibold hover:text-black cursor-pointer"
+              >
+                <a href="#">Welcome to Our Site</a>
+              </h3>
+              <p class="text-[#656565] text-xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                condimentum rutrum ligula. Integer ac porttitor mi. In finibus
+                vehicula aliquet. Vestibulum et velit placerat, pretium lorem
+                id, porttitor libero. Suspendisse scelerisque nec arcu a
+                malesuada. Nulla tempus dictum tristique.
+              </p>
+              <button
+                style="transition: 0.3s"
+                class="bg-[#1dbf73] py-2 px-4 w-36 hover:bg-[#353535] text-white cursor-pointer text-lg"
+              >
+                <a href="#">Read More</a>
+              </button>
+            </div>
+          </div>
+          <div class="flex gap-6 justify-center h-full w-full">
+            <div
+              style="transition: 0.3s"
+              class="bg-white flex flex-col gap-10 group hover:shadow-md"
+            >
+              <div class="relative">
+                <img src="./src/img/about-mission.jpg" alt="" />
+                <div
+                  style="transition: 0.3s"
+                  class="p-3 bg-[#1dbf73] rounded-full absolute bottom-[-12%] left-[44%] border-4 border-white group-hover:bg-white"
+                >
+                  <svg
+                    class="group-hover:fill-[#1dbf73]"
+                    fill="#ffffff"
+                    width="40px"
+                    height="40px"
+                    viewBox="0 0 256 256"
+                    id="Flat"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M205.20361,52.561a11.9831,11.9831,0,0,0-1.76562-1.76575,108.1521,108.1521,0,1,0,1.76562,1.76575ZM170.323,116a43.7392,43.7392,0,0,0-3.91748-9.4353L195.24927,77.721A83.5787,83.5787,0,0,1,211.12915,116ZM148,128a20,20,0,1,1-20-20A20.0226,20.0226,0,0,1,148,128Zm-20,84A84,84,0,1,1,178.27832,60.75049L149.43481,89.594A43.99139,43.99139,0,1,0,170.323,140h40.80615A84.1192,84.1192,0,0,1,128,212Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="px-8 pb-8 flex flex-col gap-4">
+                <div class="text-center">
+                  <span
+                    class="text-2xl font-semibold cursor-pointer hover:text-[#1dbf73]"
+                    style="transition: 0.3s"
+                    >Our Mission</span
+                  >
+                </div>
+                <p class="text-[#656565] text-lg">
+                  Aenean volutpat, dolor eu finibus rhoncus, elit felis vehicula
+                  nunc, ut pulvinar ex diam nec lacus. Phasellus sit amet
+                  rhoncus turpis. Aenean tincidunt auctor purus, ac sodales
+                  sapien sagittis
+                </p>
+                <div class="flex justify-center">
+                  <button
+                    style="transition: 0.3s"
+                    class="bg-[#1dbf73] py-2 px-3 w-35 text-white group-hover:bg-gray-800"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              style="transition: 0.3s"
+              class="bg-white flex flex-col gap-10 group hover:shadow-md"
+            >
+              <div class="relative">
+                <img src="./src/img/about-vision.jpg" alt="" />
+                <div
+                  style="transition: 0.3s"
+                  class="p-3 bg-[#1dbf73] rounded-full absolute bottom-[-12%] left-[44%] border-4 border-white group-hover:bg-white"
+                >
+                  <svg
+                    class="group-hover:fill-[#1dbf73]"
+                    fill="#ffffff"
+                    height="30px"
+                    width="30px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 512 512"
+                    enable-background="new 0 0 512 512"
+                    xml:space="preserve"
+                  >
+                    <path
+                      d="M0,226v32c128,192,384,192,512,0v-32C384,34,128,34,0,226z M256,370c-70.7,0-128-57.3-128-128s57.3-128,128-128
+	        s128,57.3,128,128S326.7,370,256,370z M256,170c0-8.3,1.7-16.1,4.3-23.6c-1.5-0.1-2.8-0.4-4.3-0.4c-53,0-96,43-96,96s43,96,96,96
+	        c53,0,96-43,96-96c0-1.5-0.4-2.8-0.4-4.3c-7.4,2.6-15.3,4.3-23.6,4.3C288.2,242,256,209.8,256,170z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="px-8 pb-8 flex flex-col gap-4">
+                <div class="text-center">
+                  <span
+                    class="text-2xl font-semibold cursor-pointer hover:text-[#1dbf73]"
+                    style="transition: 0.3s"
+                    >Our Vision</span
+                  >
+                </div>
+                <p class="text-[#656565] text-lg">
+                  Aenean volutpat, dolor eu finibus rhoncus, elit felis vehicula
+                  nunc, ut pulvinar ex diam nec lacus. Phasellus sit amet
+                  rhoncus turpis. Aenean tincidunt auctor purus, ac sodales
+                  sapien sagittis
+                </p>
+                <div class="flex justify-center">
+                  <button
+                    style="transition: 0.3s"
+                    class="bg-[#1dbf73] py-2 px-3 w-35 text-white group-hover:bg-gray-800"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              style="transition: 0.3s"
+              class="bg-white flex flex-col gap-10 group hover:shadow-md"
+            >
+              <div class="relative">
+                <img src="./src/img/about-objective.jpg" alt="" />
+                <div
+                  style="transition: 0.3s"
+                  class="p-3 bg-[#1dbf73] rounded-full absolute bottom-[-12%] left-[44%] border-4 border-white group-hover:bg-white"
+                >
+                  <svg
+                    class="group-hover:fill-[#1dbf73]"
+                    fill="#ffffff"
+                    width="32px"
+                    height="32px"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title />
+
+                    <g data-name="Layer 24" id="Layer_24">
+                      <path
+                        d="M10,12H6a1,1,0,0,1-1-1V7A1,1,0,0,1,6,6h4a1,1,0,0,1,1,1v4A1,1,0,0,1,10,12ZM7,10H9V8H7Z"
+                      />
+
+                      <path
+                        d="M6,8.47V11h4V8.47a2.11,2.11,0,0,1-2,1A2.11,2.11,0,0,1,6,8.47Z"
+                      />
+
+                      <path
+                        d="M21,15.47V18h4V15.47a2.11,2.11,0,0,1-2,1A2.11,2.11,0,0,1,21,15.47Z"
+                      />
+
+                      <path
+                        d="M6,22.47V25h4V22.47a2.11,2.11,0,0,1-2,1A2.11,2.11,0,0,1,6,22.47Z"
+                      />
+
+                      <path d="M29,10H10a1,1,0,0,1,0-2H29a1,1,0,0,1,0,2Z" />
+
+                      <path d="M6,10H3A1,1,0,0,1,3,8H6a1,1,0,0,1,0,2Z" />
+
+                      <path
+                        d="M10,26H6a1,1,0,0,1-1-1V21a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v4A1,1,0,0,1,10,26ZM7,24H9V22H7Z"
+                      />
+
+                      <path d="M6,24H3a1,1,0,0,1,0-2H6a1,1,0,0,1,0,2Z" />
+
+                      <path d="M29,24H10a1,1,0,0,1,0-2H29a1,1,0,0,1,0,2Z" />
+
+                      <path
+                        d="M25,19H21a1,1,0,0,1-1-1V14a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v4A1,1,0,0,1,25,19Zm-3-2h2V15H22Z"
+                      />
+
+                      <path d="M21,17H3a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Z" />
+
+                      <path d="M29,17H25a1,1,0,0,1,0-2h4a1,1,0,0,1,0,2Z" />
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <div class="px-8 pb-8 flex flex-col gap-4">
+                <div class="text-center">
+                  <span
+                    class="text-2xl font-semibold cursor-pointer hover:text-[#1dbf73]"
+                    style="transition: 0.3s"
+                    >Our Objective</span
+                  >
+                </div>
+                <p class="text-[#656565] text-lg">
+                  Aenean volutpat, dolor eu finibus rhoncus, elit felis vehicula
+                  nunc, ut pulvinar ex diam nec lacus. Phasellus sit amet
+                  rhoncus turpis. Aenean tincidunt auctor purus, ac sodales
+                  sapien sagittis
+                </p>
+                <div class="flex justify-center">
+                  <button
+                    style="transition: 0.3s"
+                    class="bg-[#1dbf73] py-2 px-3 w-35 text-white group-hover:bg-gray-800"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
+      </div>
+    </section>
+    <section
+      class="bg-white flex flex-col gap-10 items-center justify-center py-20"
+    >
+      <div class="flex flex-col gap-6 text-center">
+        <span class="text-4xl font-semibold">SERVICES</span>
+        <p class="w-200 text-[#656565] text-lg">
+          Integer sollicitudin sed nulla non consequat. Nullam vitae erat quis
+          leo accumsan ullamcorper. Suspendisse leo purus, pellentesque posuere.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-4 px-70 gap-5 pl-[15%]">
+        <div class="flex flex-col gap-5 items-center text-center">
+          <svg
+            fill="#1dbf73"
+            width="66px"
+            height="66px"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.25 1.5H1.75A1.25 1.25 0 0 0 .5 2.75v7.5a1.25 1.25 0 0 0 1.25 1.25H6.1v1.75H4v1.25h8v-1.25H9.91V11.5h4.34a1.25 1.25 0 0 0 1.25-1.25v-7.5a1.25 1.25 0 0 0-1.25-1.25zM8.66 13.25H7.35V11.5h1.31zm5.59-3H1.75v-7.5h12.5z"
+            />
+          </svg>
+          <span class="text-xl font-semibold">Web Design</span>
+          <p class="text-[#656565] text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 items-center text-center">
+          <svg
+            width="70px"
+            height="70px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              opacity="0.15"
+              d="M5 5.5H19C19.5523 5.5 20 5.94772 20 6.5V15.5C20 16.0523 19.5523 16.5 19 16.5H20.25C20.9404 16.5 21.5 17.0596 21.5 17.75C21.5 18.4404 20.9404 19 20.25 19H3.75C3.05964 19 2.5 18.4404 2.5 17.75C2.5 17.0596 3.05964 16.5 3.75 16.5H5C4.44772 16.5 4 16.0523 4 15.5V6.5C4 5.94771 4.44772 5.5 5 5.5Z"
+              fill="#ffffff"
+            />
+            <path
+              d="M19 16.5H5M19 16.5C19.5523 16.5 20 16.0523 20 15.5V6.5C20 5.94772 19.5523 5.5 19 5.5H5C4.44772 5.5 4 5.94771 4 6.5V15.5C4 16.0523 4.44772 16.5 5 16.5M19 16.5H20.25C20.9404 16.5 21.5 17.0596 21.5 17.75C21.5 18.4404 20.9404 19 20.25 19H3.75C3.05964 19 2.5 18.4404 2.5 17.75C2.5 17.0596 3.05964 16.5 3.75 16.5H5"
+              stroke="#1dbf73"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span class="text-xl font-semibold">Web Development</span>
+          <p class="text-[#656565] text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 items-center text-center">
+          <svg
+            fill="#1dbf73"
+            width="64px"
+            height="64px"
+            viewBox="0 0 36 36"
+            version="1.1"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <title>tablet-solid</title>
+            <path
+              d="M30,2H6A2,2,0,0,0,4,4V32a2,2,0,0,0,2,2H30a2,2,0,0,0,2-2V4A2,2,0,0,0,30,2ZM19,32H17V30h2ZM6,28V4H30V28Z"
+              class="clr-i-solid clr-i-solid-path-1"
+            ></path>
+            <rect x="0" y="0" width="36" height="36" fill-opacity="0" />
+          </svg>
+          <span class="text-xl font-semibold">App Design</span>
+          <p class="text-[#656565] text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 items-center text-center">
+          <svg
+            fill="#1dbf73"
+            width="72px"
+            height="72px"
+            viewBox="0 0 32 32"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>phone</title>
+            <path
+              d="M21.999 4h-12c-1.104 0-1.999 0.896-1.999 2v20c0 1.104 0.895 2 1.999 2h12c1.105 0 2.001-0.896 2.001-2v-20c0-1.104-0.896-2-2.001-2zM13 5h5l0.062 1h-5.062v-1zM15.979 26.5c-0.552 0-1-0.447-1-1s0.448-1 1-1c0.553 0 1 0.447 1 1s-0.448 1-1 1zM21.999 23h-12l0.021-16h11.979v16z"
+            ></path>
+          </svg>
+          <span class="text-xl font-semibold">App Development</span>
+          <p class="text-[#656565] text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 items-center text-center">
+          <svg
+            fill="#1dbf73"
+            width="66px"
+            height="66px"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.25 1.5H1.75A1.25 1.25 0 0 0 .5 2.75v7.5a1.25 1.25 0 0 0 1.25 1.25H6.1v1.75H4v1.25h8v-1.25H9.91V11.5h4.34a1.25 1.25 0 0 0 1.25-1.25v-7.5a1.25 1.25 0 0 0-1.25-1.25zM8.66 13.25H7.35V11.5h1.31zm5.59-3H1.75v-7.5h12.5z"
+            />
+          </svg>
+          <span class="text-xl font-semibold">Web Design</span>
+          <p class="text-[#656565] text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 items-center text-center">
+          <svg
+            width="70px"
+            height="70px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              opacity="0.15"
+              d="M5 5.5H19C19.5523 5.5 20 5.94772 20 6.5V15.5C20 16.0523 19.5523 16.5 19 16.5H20.25C20.9404 16.5 21.5 17.0596 21.5 17.75C21.5 18.4404 20.9404 19 20.25 19H3.75C3.05964 19 2.5 18.4404 2.5 17.75C2.5 17.0596 3.05964 16.5 3.75 16.5H5C4.44772 16.5 4 16.0523 4 15.5V6.5C4 5.94771 4.44772 5.5 5 5.5Z"
+              fill="#ffffff"
+            />
+            <path
+              d="M19 16.5H5M19 16.5C19.5523 16.5 20 16.0523 20 15.5V6.5C20 5.94772 19.5523 5.5 19 5.5H5C4.44772 5.5 4 5.94771 4 6.5V15.5C4 16.0523 4.44772 16.5 5 16.5M19 16.5H20.25C20.9404 16.5 21.5 17.0596 21.5 17.75C21.5 18.4404 20.9404 19 20.25 19H3.75C3.05964 19 2.5 18.4404 2.5 17.75C2.5 17.0596 3.05964 16.5 3.75 16.5H5"
+              stroke="#1dbf73"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span class="text-xl font-semibold">Web Development</span>
+          <p class="text-[#656565] text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 items-center text-center">
+          <svg
+            fill="#1dbf73"
+            width="64px"
+            height="64px"
+            viewBox="0 0 36 36"
+            version="1.1"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <title>tablet-solid</title>
+            <path
+              d="M30,2H6A2,2,0,0,0,4,4V32a2,2,0,0,0,2,2H30a2,2,0,0,0,2-2V4A2,2,0,0,0,30,2ZM19,32H17V30h2ZM6,28V4H30V28Z"
+              class="clr-i-solid clr-i-solid-path-1"
+            ></path>
+            <rect x="0" y="0" width="36" height="36" fill-opacity="0" />
+          </svg>
+          <span class="text-xl font-semibold">App Design</span>
+          <p class="text-[#656565] text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 items-center text-center">
+          <svg
+            fill="#1dbf73"
+            width="72px"
+            height="72px"
+            viewBox="0 0 32 32"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>phone</title>
+            <path
+              d="M21.999 4h-12c-1.104 0-1.999 0.896-1.999 2v20c0 1.104 0.895 2 1.999 2h12c1.105 0 2.001-0.896 2.001-2v-20c0-1.104-0.896-2-2.001-2zM13 5h5l0.062 1h-5.062v-1zM15.979 26.5c-0.552 0-1-0.447-1-1s0.448-1 1-1c0.553 0 1 0.447 1 1s-0.448 1-1 1zM21.999 23h-12l0.021-16h11.979v16z"
+            ></path>
+          </svg>
+          <span class="text-xl font-semibold">App Development</span>
+          <p class="text-[#656565] text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
         </div>
       </div>
+    </section>
+    <section
+      class="bg-[#1dbf73] text-white py-14 flex flex-col items-center justify-center gap-12 text-center px-140"
+    >
+      <div class="flex flex-col gap-5">
+        <span class="text-5xl font-semibold">Call to Action</span>
+        <p class="text-lg">
+          Integer sollicitudin sed nulla non consequat. Nullam vitae erat quis
+          leo accumsan ullamcorper. Suspendisse leo purus, pellentesque posuere.
+        </p>
+      </div>
+      <button
+        style="transition: 0.3s"
+        class="bg-white text-[#1dbf73] py-3 px-10 text-lg hover:bg-[#353535] cursor-pointer hover:text-white"
+      >
+        CALL TO ACTION
+      </button>
     </section>
     <script type="module" src="/src/main.ts"></script>
   </body>
