@@ -27,3 +27,59 @@ body {
   height: 80px;
   opacity: 0.9;
 }
+
+.animeHtml {
+  animation: anime1 2s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anime1 {
+  0% {
+    width: 5%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animeCss {
+  animation: anime2 2s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anime2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.animeJquery {
+  animation: anime3 2s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anime3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.animePhp {
+  animation: anime4 2s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anime4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
