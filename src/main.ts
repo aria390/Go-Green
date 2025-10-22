@@ -9,7 +9,7 @@ const headerEl = document.getElementById("header") as HTMLElement;
 console.log(window.pageYOffset);
 
 window.addEventListener("scroll", () => {
-  if (window.pageYOffset >= 600) {
+  if (window.pageYOffset >= 300) {
     headerEl.classList.add("headerColor");
   } else {
     headerEl.classList.remove("headerColor");

@@ -22,6 +22,8 @@ body {
 }
 
 .headerColor {
-  transition: 0.2s;
+  transition: 0.2s ease-in-out;
   background-color: black;
+  height: 80px;
+  opacity: 0.9;
 }
